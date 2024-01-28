@@ -12,19 +12,12 @@ a{
 }
 .logo img{
      height: 50px;
+     width: 100%;
 }
 .logo{
     position: absolute;
-    left: 90px;
+    left: 150px;
     top: 50px;
-}
-.logo a{
-    text-shadow: 2px 5px 10px rgba(27, 27, 29, 0.918);
-    font-weight: 900;
-    color: rgb(38, 8, 140);
-    font-size: 30px;
-    letter-spacing: 1;
-    text-transform: uppercase;
 }
 
 .searchArea{
