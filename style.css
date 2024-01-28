@@ -62,3 +62,112 @@ a{
     font-family: poppins;
 	
 }
+.section1{
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    transform: translate(-15%, -50%);
+}
+.section1 img{
+    height: 300px;
+
+}
+.section1Button{
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%, -50%);
+}
+.section1Button h1, h2{
+    font-family:Roboto;
+    font-weight: 700;
+    margin: 0px;
+    line-height: 60px;
+    font-size: 4rem;
+    text-shadow: 2px 2px 10px rgb,0,0,0,0.08;
+    letter-spacing: 3px;
+    color: #3d3d4a;
+    text-transform: uppercase;
+}
+span{
+    color: #7a72ff;
+    position: relative;
+}
+.section1Button h1{
+    letter-spacing: 20px;
+} 
+    
+.btn{
+    width: 150px;
+    height: 40px;
+    background-color: #2f2e41;
+    box-shadow: 2px 2px 30px rgb(0,0,0,0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+    margin-top: 20px;
+    color: #ffffff;
+    font-family: calibri;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    outline: none;
+    cursor: pointer;
+    border: transparent !important;
+}
+.btn:hover{
+    color: #ffffff;
+    background-color: #6e64ff;
+    transition: 0.5s;
+}
+.iconArea{
+    position: fixed;
+    left: 40px;
+    top: 30%;
+    transform: translate(-50%);
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 30px rgb(0,0,0,0.2);
+    padding: 5px 0px;
+    z-index: 1;
+}
+.iconArea a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 15px;
+}
+.iconArea a i{
+	color:rgba(39,39,39,0.80);
+}
+ 
+
+.iconArea a:hover .fa-facebook-f{
+	color: #3b5998;
+}
+.iconArea a:hover .fa-twitter{
+	color: #00acee ;
+}
+.iconArea a:hover .fa-instagram{
+	color:  #3f729b ;
+}
+.iconArea a:hover .fa-youtube{
+ 
+	color: 	#FF0000;
+}
+
+.productSection{
+    width: 85%;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 30px rgb(161, 161, 161);
+    display: flex;
+    margin: 30px auto;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    margin-top: -60px;
+    position: relative;
+    background-size: 1000px;
+    border-radius: 10px
+}
