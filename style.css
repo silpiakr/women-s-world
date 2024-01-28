@@ -359,62 +359,10 @@ footer p{
 		left:60%;
 		display:block;
 		position:relative;
-	}
-	
-	.iconArea{display:block;
-	}
-	.section1{
-		display:none;
-		width:50%;
-		height:100vh;
-		right:100px;
-		position:relative;
-		
-	}
-	.section1Button{
-		width:200px;
-		height:auto;
-		font-size:15px;
-		position:relative;
-		left:50%;
-		right:30%
-	}
-	.Notification{
-		width:300px;
-		font-size:15px;
-		position:relative;
-		margin-left:100px;
-	}
-	.NotificationInput{
-		width:300px;
-		font-size:15px;
-		position:relative;
-		margin-left:60px;
-	}
-	footer{
-		display:block;
-		width:100%;
-		height:30px;
-		position:relative;
+		display:flex;
+		align-items:center;
 		text-align:center;
-		right:50px;
-		top:100px;
-		font-size:13px;
-		padding:25px;
-	}
-	
-}
-@media(max-width:600px){
-	.logo{
-		width:100%;
-		height:70px;
-		display:block;
-		position:relative;
-	}
-	.searchArea{	
-		left:60%;
-		display:block;
-		position:relative;
+		justify-content:center;
 	}
 	
 	.iconArea{display:block;
@@ -433,7 +381,12 @@ footer p{
 		font-size:15px;
 		position:relative;
 		left:50%;
-		right:30%
+		right:30%;
+		margin-top:0;
+	}
+	.section1Button h1, .section1Button h2{
+		font-size:50px;
+		text-shadow:3px 3px 10px;
 	}
 	.Notification{
 		width:300px;
