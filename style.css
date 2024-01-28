@@ -339,3 +339,11 @@ span{
     background-color: rgb(185, 26, 185);
     transition:0.5s;
 }
+footer{
+    background-color: black;
+    padding: 20px;
+}
+footer p{
+    text-align: center;
+    color: #f2f2f2;
+}
